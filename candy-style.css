@@ -1,0 +1,161 @@
+body{
+    background-image: url(https://onecms-res.cloudinary.com/image/upload/s--9-nRDDk_--/c_crop,h_719,w_959,x_342,y_1/c_fill,g_auto,h_622,w_830/f_auto,q_auto/v1/mediacorp/cna/image/2022/03/18/candy_crush_saga.jpg?itok=1FboWqDf);
+    background-size: contain;
+    background-position: 5% 5px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+header h1{
+    color: rgb(245, 179, 14);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover{
+    color: yellow;
+}
+.search{
+    border: none;
+    margin: 0px;
+    padding: 10px;
+    float: right;
+}
+.srch{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid aqua;
+    color: black;
+    font-size: 18px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 70px;
+    height: 30px;
+    background: #10f0bf;
+    border: 2px solid #00d9ff;
+    color: #fff;
+    font-size: 15px;
+    float: right;
+    border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 5px;
+}
+.btn:hover{
+    color: yellow;
+    transition: o.4s easy;
+}
+.sec1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: rgb(236, 106, 45);
+    text-align: center;
+    align-items: center;
+}
+.sec1 p{
+    text-align: left;
+    margin-left: 20px;
+    color: goldenrod;
+    font-family: cursive;
+    font-size: 30px;
+    margin-top: none;
+}
+.sec1 .em1{
+    color: red;
+}
+.sec1 .em2{
+    margin: 100px;
+    
+}
+.sec1 button{
+    margin-left: 50px;
+    margin-bottom: 60px;
+    margin-top: 390px;
+    border: none;
+    border-radius: 4px;
+    font-size: 19px;
+    background-color: rgb(221, 10, 10);
+    padding: 5px 5px;
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sec1 button:hover{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAdAAUoNvMIYbUL4ap1gPe-k4LL7Mu_CZa2tmg9azFj0rUoPpWABXFee9p29KuftcYBhs&usqp=CAU);
+    background-size: cover;
+}
+.sec2{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding-left: 170px;
+    background-image: url(https://play-lh.googleusercontent.com/TLUeelx8wcpEzf3hoqeLxPs3ai1tdGtAZTIFkNqy3gbDp1NPpNFTOzSFJDvZ9narFS0);
+    background-size: cover;
+    background-size: 1px 2px;
+}
+.sec2 h2{
+    color: rgb(231, 14, 87);
+    font-size: 40px;
+}
+.sec2 p{
+    color: rgb(28, 213, 238);
+    font-size: 30px;
+}.sec2 p em{
+    color: rgb(223, 220, 15);
+    font-size: 30px;
+}
+.sec3 h2{
+    margin: 40px;
+    color: #ff7200;
+}
+.sec3 div {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-gap: 10px;
+}
+
+div img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    float: left;
+    padding-left: 40px;
+}
+footer{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+footer p{
+    font-size: 20px;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 11px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: yellow;
+}
